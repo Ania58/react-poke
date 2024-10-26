@@ -55,9 +55,9 @@ function App() {
     <>
       <h1>Pokémon Search</h1>
       <SearchBar searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
-      {loading && <p>Loading...</p>}
+      {loading && <p className="loading">Loading...</p>}
       {error && <p className="error">{error}</p>}
-      {notFound && <p>Pokémon not found</p>}
+      {notFound && <p className="not-found">Pokémon not found</p>}
       <PokemonList pokemons={pokemons} />
     </>
   );

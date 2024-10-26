@@ -40,3 +40,87 @@
 .read-the-docs {
   color: #888;
 }
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header Styles */
+h1 {
+  text-align: center;
+  margin: 20px 0;
+  color: #333;
+}
+
+/* Search Bar Styles */
+input[type="text"] {
+  display: block; /* Make input a block element */
+  margin: 0 auto; /* Center the input */
+  padding: 10px;
+  border: 2px solid #007BFF;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 250px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+  border-color: #0056b3;
+}
+
+/* Error and Not Found Message Styles */
+p {
+  text-align: center;
+  margin: 10px 0;
+}
+
+.error {
+  color: red;
+}
+
+.not-found {
+  color: orange;
+}
+
+/* Pokemon List Styles */
+ul {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  list-style-type: none; /* Remove bullet points from list */
+}
+
+ul li {
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px;
+  text-align: center;
+  width: 150px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  transition: transform 0.2s;
+}
+
+ul li:hover {
+  transform: scale(1.05);
+}
+
+/* Pokemon Image Styles */
+img {
+  width: 100%;
+  height: auto;
+}
+
+/* Loading Indicator Styles */
+.loading {
+  text-align: center;
+  font-size: 18px;
+  margin: 10px 0;
+}
