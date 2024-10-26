@@ -58,8 +58,8 @@ h1 {
 
 /* Search Bar Styles */
 input[type="text"] {
-  display: block; /* Make input a block element */
-  margin: 0 auto; /* Center the input */
+  display: block; 
+  margin: 0 auto; 
   padding: 10px;
   border: 2px solid #007BFF;
   border-radius: 5px;
@@ -93,7 +93,7 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   padding: 0;
-  list-style-type: none; /* Remove bullet points from list */
+  list-style-type: none; 
 }
 
 ul li {
