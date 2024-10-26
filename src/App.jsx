@@ -47,6 +47,7 @@ function App() {
       fetchPokemon(searchTerm);
     } else {
       setPokemons([]); // Clear results if search term is empty
+      setNotFound(false); 
     }
   }, [searchTerm]);
 
